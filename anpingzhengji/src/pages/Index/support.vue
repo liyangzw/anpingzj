@@ -7,7 +7,7 @@
             </div>
             <ul class="news_items">
                 <li class="index-support" v-for="(items,index) in  newsSupport" :key="'support_'+index">
-                    {{items.title}}
+                    <router-link :to="items.link" :id="index"> {{items.title}}</router-link>
                 </li>
             </ul>
         </div>
@@ -32,44 +32,57 @@
             return {
                 "newsSupport": [{
                     "title": "声屏障材料选用总的原则是降噪效果性",
-                    "id": "1"
+                    "id": "1",
+                    "link": "/jszc/1"
                 }, {
                     "title": "声屏障反射原理",
-                    "id": "2"
+                    "id": "2",
+                    "link": "/jszc/2"
                 }, {
                     "title": "公路声屏障的发展趋势",
-                    "id": "3"
+                    "id": "3",
+                    "link": "/jszc/3"
                 }, {
                     "title": "噪声杀手-声屏障",
-                    "id": "4"
+                    "id": "4",
+                    "link": "/jszc/4"
                 }, {
                     "title": "声屏障安装注意事项",
-                    "id": "5"
+                    "id": "5",
+                    "link": "/jszc/5"
                 }, {
                     "title": "凹凸面声屏障的特色",
-                    "id": "6"
+                    "id": "6",
+                    "link": "/jszc/6"
                 }, {
                     "title": "冷却塔声屏障组合拼装式",
-                    "id": "7"
+                    "id": "7",
+                    "link": "/jszc/7"
                 }, {
                     "title": "铁路声屏障，高度在1m一5m间",
-                    "id": "8"
+                    "id": "8",
+                    "link": "/jszc/8"
                 }],
                 "supportItems": [{
                     "title": "声屏障材料选用总的原则是降噪效果性",
-                    "id": "1"
+                    "id": "1",
+                    "link": "/jszc/1"
                 }, {
                     "title": "声屏障反射原理",
-                    "id": "2"
+                    "id": "2",
+                    "link": "/jszc/2"
                 }, {
                     "title": "公路声屏障的发展趋势",
-                    "id": "3"
+                    "id": "3",
+                    "link": "/jszc/3"
                 }, {
                     "title": "噪声杀手-声屏障",
-                    "id": "4"
+                    "id": "4",
+                    "link": "/jszc/4"
                 }, {
                     "title": "声屏障安装注意事项",
-                    "id": "5"
+                    "id": "5",
+                    "link": "/jszc/5"
                 }]
             }
         }
