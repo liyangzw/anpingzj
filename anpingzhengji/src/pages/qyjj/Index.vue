@@ -1,0 +1,82 @@
+<template>
+	<div class="content">
+        <index-header></index-header>
+        <div class="breadcrumb">
+            <div class="crumb"><a href="http://localhost:8080/#/">首页</a></div>
+            <div class="crumb"><i class="el-icon-arrow-right"></i></div>
+            <div class="crumb">企业简介</div>
+        </div>
+        <div class="content-bot">
+            <h2 class="content-qyjj">公司简介</h2>
+            <div class="content-jj">
+                <div class="content-p">
+                    <p> 
+                        安平县正基丝网制造有限公司是一家声屏障的专业生产型企业。公司设备齐全，技术先进，严格执行ISO9001质量管理体系进行生产，具备大批量生产的能力。公司拥有精干的决策领导层和专业知识丰富、业务水平领先、积极热情、吃苦耐劳的职工队伍。我们始终坚持以质量、价格和服务赢得市场的方针，不断开发创新型产品，拓展新应用领域，继续开拓欧美及国际新兴经济体市场。
+                        随着社会不断进步，噪声污染已经成为社会突显问题，公司秉着保护声环境的目标，自致力于声屏障产品的研制和开发，目前主要生产声屏障、波形护栏板、防风网等多种产品。
+                    </p>
+                    <p>
+                        我公司本着“质量求生存，效益谋发展”的生存原则，积累多年生产经验，产品务必精益求精，质量可靠，赢得了广大新老客户的好评。企业以品质与服务为中心，视产品质量为生命，逐步扩展产品的应用领域，不断追求改进与创新，尽力满足客户不同类型的需求。 安平县正基丝网制造有限公司愿与国内外新老客户本着精诚合作，互惠互利的原则建立广泛的合作关系。回首过去，恒爱更加坚定了信念；展望明天，我们将扬鞭策马再续辉煌！
+                    </p>
+                </div>
+                <div class="content-crad">
+                    <img src="../../imgs/zhizhao.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</template>
+
+<script>
+import header from '../components/header';
+
+export default {
+	components: {
+		"index-header": header
+	}
+}
+</script>
+<style scoped>
+   .content {
+       width: 1220px;
+       margin: 0 auto;
+       height: auto;
+   }
+   .breadcrumb {
+        width: 1220px;
+        height: 40px;
+        background: #ccc;
+    }
+    .crumb {
+        float: left;
+        margin: 0 10px;
+        line-height: 40px;
+    }
+   .content-qyjj {
+       width: 1220px;
+       height: 60px;
+       text-align: center;
+       line-height: 60px;
+       font-size: 36px;
+       border-bottom: 1px dashed #ccc;
+   }
+   .content-p {
+       float: left;
+       width: 50%;
+   }
+   .content p{
+        text-indent: 2em;
+        line-height: 40px;
+   }
+   .content-crad {
+       float: left;
+       width: 50%;
+       height: 600px;
+       margin: 0 auto;
+   }
+   .content-crad img {
+       margin: 20px 100px;
+       width: 400px;
+       height: 500px;
+   }
+</style>

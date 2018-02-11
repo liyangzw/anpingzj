@@ -1,0 +1,21 @@
+{
+	"ret": true,
+    "data":[
+        {
+            "imgUrl": "../src/imgs/f1.jpg",
+            "id": "1" 
+        },
+        {
+            "imgUrl": "../src/imgs/f1.jpg",
+            "id": "2" 
+        },
+        {
+            "imgUrl": "../src/imgs/f1.jpg",
+            "id": "3" 
+        },
+        {
+            "imgUrl": "../src/imgs/f1.jpg",
+            "id": "4" 
+        }
+    ]
+}
